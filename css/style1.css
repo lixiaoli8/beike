@@ -1,0 +1,67 @@
+.all{display:flex;height:100%;flex-direction:column;}
+html{font-size:18.52vw}
+/*=============header==========*/
+header{height:.81rem;border-bottom:1px solid #ccc;}
+header h2{text-align:center;line-height:.81rem;}
+.f1{position:absolute;width:1.53rem;height:.51rem;background:#3a77f4;color:#fff;border-radius:6px;line-height:.51rem;text-align:center;left:1.96rem;top:.99rem;}
+/*===========main===============*/
+main{flex:1;height:100%;overflow:auto}
+main .box{height:2.52rem;margin:0 .35rem;border-bottom:1px solid #ccc;}
+main .box h2{font-weight:100;font-size:.16rem;height:.59rem;line-height:.59rem;margin-bottom:.1rem;}
+main .box ul{height:1.32rem;display:flex;width:100%;justify-content: space-between;}
+main .box ul li{height:1.32rem;flex:1;margin-right:.15rem;}
+main .box ul li:nth-last-child(1){margin-right:0;}
+main .box ul li a{display:block;}
+main .box ul li a img{display:block;width:1.48rem;height:1.18rem;}
+main .box  a.last{display:flex;width:1.51rem;height:.81rem;margin-top:.2rem}
+main .box  a.last img{width:.28rem;height:.28rem;display:block;margin-right:.1rem;}
+main .box  a.last span{flex:1;font-size:.14rem;}
+main .box1{height:2.52rem;margin:0 .35rem;border-bottom:1px solid #ccc;}
+main .box1 h2{font-weight:100;font-size:.16rem;height:.59rem;line-height:.59rem;}
+main .box1 ul{height:1.32rem;display:flex;width:100%;justify-content: space-between;}
+main .box1 ul li{height:1.32rem;flex:1;margin-right:.15rem;}
+main .box1 ul li:nth-last-child(1){margin-right:0;}
+main .box1 ul li a{display:block;}
+main .box1 ul li a img{display:block;width:1.48rem;height:1.18rem;}
+main .box1  a.last{display:flex;width:1.51rem;height:.81rem;margin-top:.2rem}
+main .box1  a.last img{width:.28rem;height:.28rem;display:block;margin-right:.1rem;}
+main .box1  a.last span{flex:1;font-size:.14rem;}
+main .box2{height:2.52rem;margin:0 .35rem;border-bottom:1px solid #ccc;}
+main .box2 h2{font-weight:100;font-size:.16rem;height:.59rem;line-height:.59rem;}
+main .box2 ul{height:1.32rem;display:flex;width:100%;justify-content: space-between;}
+main .box2 ul li{height:1.32rem;flex:1;margin-right:.15rem;}
+main .box2 ul li:nth-last-child(1){margin-right:0;}
+main .box2 ul li a{display:block;}
+main .box2 ul li a img{display:block;width:1.48rem;height:1.18rem;}
+main .box2  a.last{display:flex;width:1.51rem;height:.81rem;margin-top:.2rem}
+main .box2  a.last img{width:.28rem;height:.28rem;display:block;margin-right:.1rem;}
+main .box2  a.last span{flex:1;font-size:.14rem;}
+main .box3{height:2.52rem;margin:0 .35rem;border-bottom:1px solid #ccc;}
+main .box3 h2{font-weight:100;font-size:.16rem;height:.59rem;line-height:.59rem;}
+main .box3 ul{height:1.32rem;display:flex;width:100%;justify-content: space-between;}
+main .box3 ul li{height:1.32rem;flex:1;margin-right:.15rem;}
+main .box3 ul li:nth-last-child(1){margin-right:0;}
+main .box3 ul li a{display:block;}
+main .box3 ul li a img{display:block;width:1.48rem;height:1.18rem;}
+main .box3  a.last{display:flex;width:1.51rem;height:.81rem;margin-top:.2rem}
+main .box3  a.last img{width:.28rem;height:.28rem;display:block;margin-right:.1rem;}
+main .box3  a.last span{flex:1;font-size:.14rem;}main .box2{height:2.52rem;margin:0 .35rem;border-bottom:1px solid #ccc;}
+main .box4{height:2.52rem;margin:0 .35rem;border-bottom:1px solid #ccc;}
+main .box4 h2{font-weight:100;font-size:.16rem;height:.59rem;line-height:.59rem;}
+main .box4 ul{height:1.32rem;display:flex;width:100%;justify-content: space-between;}
+main .box4 ul li{height:1.32rem;flex:1;margin-right:.15rem;}
+main .box4 ul li:nth-last-child(1){margin-right:0;}
+main .box4 ul li a{display:block;}
+main .box4 ul li a img{display:block;width:1.48rem;height:1.18rem;}
+main .box4  a.last{display:flex;width:1.51rem;height:.81rem;margin-top:.2rem}
+main .box4  a.last img{width:.28rem;height:.28rem;display:block;margin-right:.1rem;}
+main .box4 a.last span{flex:1;font-size:.14rem;}
+
+/*===========footer=========*/
+footer{display:flex;height:.49rem;margin:0 .25rem;}
+footer ul{display:flex;height:100%;}
+footer ul li{flex:1;flex-direction:column;justify-content:space-between;}
+footer ul li:nth-last-child(1){margin-right:0;}
+footer ul li a{display:block;width:.68rem;height:.45rem;margin-right:.84rem;}
+footer ul li a i{display:block;font-size:24px;line-height:.3rem;}
+footer ul li a span{display:block;font-size:10px;}

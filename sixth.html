@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+    <title>生活服务</title>
+    <link rel="stylesheet" href="css/case.css">
+    <link rel="stylesheet" href="css/style6.css">
+</head>
+<body>
+<div class="all">
+    <header>
+        <ul>
+            <li><i class="iconfont">&#xe691;</i></li>
+            <li><p>生活服务</p></li>
+            <li><p>订单</p></li>
+        </ul>
+    </header>
+    <nav>
+        <div id="box"></div>
+    </nav>
+    <main>
+        <div class="first0">
+            <h2>搬家服务</h2>
+            <div class="all0">
+                <div class="big">
+                    <img src="img/car.png">
+                    <h3>小面搬家</h3>
+                    <h4>适合行李少的</h4>
+                    <p>一个师傅帮忙搬家</p>
+                </div>
+                <div class="big">
+                    <img src="img/car1.png">
+                    <h3>金杯搬家</h3>
+                    <h4>适合行李多的</h4>
+                    <p>一个师傅帮忙搬家</p>
+                </div>
+                <div class="big">
+                    <img src="img/car2.png">
+                    <h3>箱货搬家</h3>
+                    <h4>适合有家具家电的</h4>
+                    <p>两个师傅帮忙搬家</p>
+                </div>
+            </div>
+        </div>
+        <div class="first">
+            <h2>宽带服务</h2>
+            <div class="all1"></div>
+        </div>
+        <h1>更多的服务正在建设中</h1>
+        <div class="last">
+            <div><img src="img/01.png"><span>日常保洁</span></div>
+            <div><img src="img/02.png"><span>开荒保洁</span></div>
+            <div><img src="img/03.png"><span>日常维修</span></div>
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript">
+    window.onload=function(){
+        let s1 = new Slider($("#box"),329,126,["img/big.png","img/3.png","img/9.png","img/10.png","img/04.png"],
+            10,"#ccc","red",
+            true,-1,1500);
+
+    }
+    $(function(){
+        $("ul li:nth-child(1) .iconfont").click(function(){
+            window.location.href = "index.html";
+        })
+    })
+
+</script>

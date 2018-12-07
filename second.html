@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+    <title>消息</title>
+    <link rel="stylesheet" href="css/case.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<div class="all">
+    <header>
+        <ul>
+            <li id="btn">X</li>
+            <li><p>注册</p></li>
+        </ul>
+    </header>
+    <main>
+        <div class="box">
+            <h2>手机快捷登录</h2>
+            <p>未注册过手机号的将自动创建贝壳账号</p>
+        </div>
+        <div class="box1">
+            <ul>
+                <li><h2>请输入手机号</h2></li>
+                <li><a href="#">获取验证码</a></li>
+                <!--<li><h2>请输入短信验证码</h2></li>-->
+                <!--<li><input type="checkbox"><span>注册/登录即代表同意《贝壳隐私政策》及《贝壳服务协议》</span></li>-->
+            </ul>
+            <ul class="all1">
+                <li><h2>请输入短信验证码</h2></li>
+
+            </ul>
+           <p><input type="checkbox" checked="checked"><span>注册/登录即代表同意《贝壳隐私政策》及《贝壳服务协议》</span></p>
+           <input type="text" value="登录">
+            <p class="first">账号密码登录</p>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><i class="iconfont">&#xe628;</i></li>
+            <li><i class="iconfont">&#xe640;</i></li>
+
+        </ul>
+        <p>其他方式登录</p>
+    </footer>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#btn").click(function(){
+            window.location.href="index.html";
+        })
+    })
+</script>
